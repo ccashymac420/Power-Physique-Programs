@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Physique Programs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .program {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .program h2 {
+            color: #444;
+        }
+        .program p {
+            line-height: 1.6;
+        }
+        .program .price {
+            font-size: 1.2rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .program button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .program button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #222;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Power Physique Programs</h1>
+        <p>Your destination for powerlifting and bodybuilding excellence</p>
+    </header>
+
+    <nav>
+        <a href="#powerlifting">Squat, Bench & Deadlift Program</a>
+        <a href="#bodybuilding">Bodybuilding Program</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="powerlifting" class="program">
+            <h2>Squat, Bench & Deadlift Program</h2>
+            <p>Master the big three lifts with this comprehensive program designed to increase your strength, perfect your form, and push you to new personal records.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>12-week structured program</li>
+                <li>Weekly progression tracking</li>
+                <li>Technique tutorials and tips</li>
+            </ul>
+            <p class="price">$49.99</p>
+            <button>Buy Now</button>
+        </section>
+
+        <section id="bodybuilding" class="program">
+            <h2>Bodybuilding Program</h2>
+            <p>Build muscle, improve symmetry, and achieve the aesthetic physique you’ve always wanted with this specialized bodybuilding program.</p>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>16-week hypertrophy-focused plan</li>
+                <li>Customized training split</li>
+                <li>Nutrition and recovery guidance</li>
+            </ul>
+            <p class="price">$59.99</p>
+            <button>Buy Now</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>Power Physique Programs &copy; 2025 | Designed for lifters by lifters</p>
+    </footer>
+</body>
+</html>
